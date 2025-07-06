@@ -9,6 +9,8 @@ import json
 # ADMIN PANEL: tracking changes: 5th July, 2025
 ADMIN_PASSWORD = st.secrets["ADMIN_PASSWORD"]
 
+a = 'test'
+
 if "admin_variable" not in st.session_state:
     st.session_state.admin_variable = "You shouldn't be seeing this.. Contact Daizook"
 
